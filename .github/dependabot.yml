@@ -4,9 +4,9 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
-updates:
- 
- - package-ecosystem: "github-actions" # See documentation for possible values
-    directory: ".github/actions/local-action" # Location of package manifests
-    schedule:
-      interval: "daily"
+updates: 
+
+ - package-ecosystem: "github-actions"
+   directory: ".github/actions/local-action"
+   schedule: 
+     interval: "daily"
